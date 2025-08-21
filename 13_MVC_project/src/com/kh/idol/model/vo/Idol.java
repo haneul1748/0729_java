@@ -4,11 +4,19 @@ public class Idol {
 	private String name;
 	private String position;
 	private String skill;
+	private String image;
+	
 	public Idol(String name, String position, String skill) {
 		super();
 		this.name = name;
 		this.position = position;
 		this.skill = skill;
+	}
+	public String getImage() {
+		return image;
+	}
+	public void setImage(String image) {
+		this.image = image;
 	}
 	public Idol() {
 		super();
