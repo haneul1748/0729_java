@@ -3,15 +3,9 @@ package com.kh.network.run;
 public class TestClass {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		// Home Sweet Home ~~~~ 
-		
-		// 왜 안바뀜?
-		// 아니 머임?
+		// 테스트해볼게
+		// 아 오늘도 열심히 공부했다 아 힘들다 고생했다.
+		// 안바
 	}
-	public void hi() {
-		
-	}
-	
-	
+
 }
