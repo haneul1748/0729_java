@@ -23,7 +23,12 @@ public class MusicController {
 	}
 	
 	public Music searchMusic(String title) {
+		for(int i=0; i<musiclist.size(); i++) {
+			
+		}
 		
+		
+		return null;
 	}
 	
 	public Music removeMusic(String title) {

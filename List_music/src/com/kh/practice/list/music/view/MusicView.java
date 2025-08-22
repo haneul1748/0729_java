@@ -102,6 +102,7 @@ public class MusicView {
 	}
 
 	public void printAll() {
+		System.out.println();
 		System.out.println("****** 전체 곡 목록 출력 ******");
 		List<Music> music = mc.printAll();
 
@@ -116,7 +117,18 @@ public class MusicView {
 	}
 
 	public void searchMusic() {
-
+		System.out.println();
+		System.out.println("****** 특정 곡 검색 ******");
+		System.out.println("검색할 곡명 : ");
+		String title = sc.nextLine();
+		
+		 Music music = mc.searchMusic(title);
+		 
+		 if (music != null) {
+			 System.out.println("검색한 곡이 없습니다.");
+		 } else {
+			 System.out.println("");
+		 }
 	}
 
 	public void removeMusic() {
